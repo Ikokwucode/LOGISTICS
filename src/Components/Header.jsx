@@ -24,7 +24,7 @@ function Header() {
         <img src={Logo} className="logo h-[90px] w-[110px]" alt="logo" />
       </div>
       {/* <div className=" Empty w-[15vw] h-[10vh] "></div> */}
-      <div className="Navbtn w-[55vw] h-[10vh] flex items-center justify-between ">
+      <div className="Navbtn h-[10vh] flex items-center justify-between ">
         <nav className=" h-[10vh] flex items-center text-xl">
           <div className=" w-fit m-[10px]  ">
             <NavLink
