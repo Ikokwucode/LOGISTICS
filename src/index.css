@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply flex items-center justify-center w-20 h-[6vh] bg-transparent;
+}
+
+.active {
+  @apply rounded-lg  text-white bg-primary;
+}
+
+.notActive {
+  @apply bg-transparent text-black;
+}
