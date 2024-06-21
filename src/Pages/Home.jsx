@@ -1,5 +1,5 @@
 // import Authentication from "../Auth/Authentication";
-// import Login from "../Auth/Login";
+import Button from "../Components/Button";
 
 function Home() {
   return (
@@ -16,9 +16,12 @@ function Home() {
             From groceries to household items, delivered to your door in no
             time.
           </p>
-          <button className=" w-[20vw] h-[8vh] border-[1px] rounded-md border-primary text-xl text-white bg-primary ">
-            Get Started
-          </button>
+          <Button
+            className="border-primary text-xl "
+            text={"Get started"}
+            width={"w-[20vw]"}
+            bg={"bg-primary"}
+          />
         </div>
       </section>
     </main>

@@ -1,14 +1,20 @@
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 // import Authentication from "../Auth/Authentication";
-import Header from "../Components/Header";
+
+import Home from "../Pages/Home";
+import About from "../Components/About";
+import Pricing from "../Components/Pricing";
+import Services from "../Components/Services";
+import How from "../Components/How";
 
 function Main() {
   return (
     <main>
-      <Header />
-      <div className="outletDiv h-[90vh] w-[100vw]">
-        <Outlet />
-      </div>
+      <Home />
+      <About />
+      <Pricing />
+      <Services />
+      <How />
     </main>
   );
 }
