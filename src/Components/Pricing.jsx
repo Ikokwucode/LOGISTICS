@@ -2,7 +2,11 @@ import React from "react";
 import Button from "./Button";
 
 function Pricing() {
-  return <div>Pricing</div>;
+  return (
+    <div id="pricing" className="">
+      Pricing
+    </div>
+  );
 }
 
 <Button text={"pricing"} />;
