@@ -13,3 +13,7 @@
 .notActive {
   @apply bg-transparent text-black;
 }
+
+.is-active {
+  @apply text-primary;
+}

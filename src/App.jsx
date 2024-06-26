@@ -7,6 +7,7 @@ import Main from "./Pages/Main";
 import Authentication from "./Auth/Authentication";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Booking from "./Pages/Booking";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+      <Booking />
     </>
   );
 }

@@ -6,6 +6,7 @@ import About from "../Components/About";
 import Pricing from "../Components/Pricing";
 import Services from "../Components/Services";
 import How from "../Components/How";
+import Contact from "../Components/Contact";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
       <Pricing />
       <Services />
       <How />
+      <Contact />
     </main>
   );
 }
