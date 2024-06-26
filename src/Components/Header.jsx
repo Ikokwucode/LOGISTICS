@@ -20,7 +20,7 @@ function Header() {
     setLogin(true);
   };
   return (
-    <header className=" fixed font-Nunito w-[100vw] h-[10vh] flex items-center justify-between px-5 bg-white">
+    <header className=" fixed font-Nunito w-[100vw] h-[10vh] flex items-center justify-between px-5 bg-white z-30">
       {/* <div className="w-[95vw] h-[10vh] flex items-center justify-between"> */}
       <div className=" grid place-content-center h-[full] w-[7vw] ">
         <img src={Logo} className="logo h-[90px] w-[110px]" alt="logo" />
