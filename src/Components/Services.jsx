@@ -1,23 +1,23 @@
 import React from "react";
 
 // import Button from "./Button";
-import pana from "../Images/pana.svg";
-import bro from "../Images/bro.svg";
-import sis from "../Images/sis.svg";
-import truck from "../Images/truck.svg";
-import van from "../Images/van.svg";
-import bike from "../Images/bike.svg";
+import pana from "/Images/pana.svg";
+import bro from "/Images/bro.svg";
+import sis from "/Images/sis.svg";
+import truck from "/Images/truck.svg";
+import van from "/Images/van.svg";
+import bike from "/Images/bike.svg";
 import Props from "./Props";
 import Tag from "./Tag";
 
 function OurServices() {
   return (
-    <main className=" w-screen h-[160vh] flex items-center justify-center  bg-[#ffefdf]">
-      <div className=" w-[85vw] h-[150vh] flex flex-col items-center justify-center">
-        <div className=" w-[85vw] h-[40px]"></div>
+    <main className=" w-screen h-[160vh] flex items-center justify-center  bg-[#ffefdf] font-Nunito border-[10px] border-blue-400   ">
+      <div className=" w-[85vw] h-[150vh] flex flex-col items-center justify-between">
+        {/* <div className=" w-[85vw] h-[40px]"> hello</div> */}
 
-        <section className=" bg-gradient-to-b from-[#ffebda] to-[#fce9d8] h-[80vh]  w-screen flex items-center justify-center flex-col rounded-[40px]">
-          <Tag text="Our Services" width={"w-[8vw]"} />
+        <section className=" bg-gradient-to-b from-[#ffebda] to-[#fce9d8] h-[80vh]  border-[1px] border-black  w-screen flex items-center justify-center flex-col ">
+          <Tag text="Our Services" width={"w-[9.5vw]"} style={"text-sm"} />
           {/* <Button
             id={"w-[85vw] h-[40px] flex items-center justify-start"}
             text=" Our Services"
@@ -53,9 +53,14 @@ function OurServices() {
             </div>
           </div>
         </section>
-        <div className=" w-[85vw] h-[80px]"></div>
+        {/* <div className=" w-[85vw] h-[80px]"> hello</div> */}
+
         <div className=" w-[85vw] h-[510px] flex flex-col items-center justify-center">
-          <Tag text="Fleet of Services" width={"w-[5vw]"} />
+          <Tag
+            text={"Fleet of Services"}
+            width={"w-[12vw]"}
+            style={"text-sm"}
+          />
           {/* <Button
             id={" w-[85vw] h-[40px] flex items-center justify-center"}
             text="Fleet of Services"

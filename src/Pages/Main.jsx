@@ -13,8 +13,8 @@ function Main() {
     <main>
       <Home />
       <About />
-      <Pricing />
       <Services />
+      <Pricing />
       <How />
       <Contact />
     </main>
