@@ -18,16 +18,16 @@ function About() {
     <div>
       <section className="w-auto  shadow-lg bg-white flex items-center justify-around">
         {/* <div className="flex items-center justify-between w-[100%] h-[12vh) "></div> */}
-        <nav className="flex items-center justify-between w-[100%] h-[12vh]">
-          <img src={abouting4} className="inline h-[6.1em]" alt="" />
-          <img src={abouting5} className="inline h-[8.1em]" alt="" />
-          <img src={abouting6} className="inline h-[6.1em]" alt="" />
-          <img src={abouting7} className="inline h-[8.1em]" alt="" />
-          <img src={abouting8} className="inline h-[8.lem]" alt="" />
-          <img src={abouting9} className="inline h-[8.1em]" alt="" />
+        <nav className="flex items-center justify-between w-[100%] h-[12vh] px-10">
+          <img src={abouting4} className="inline h-[4em]" alt="" />
+          <img src={abouting5} className="inline h-[5.1em]" alt="" />
+          <img src={abouting6} className="inline h-[5em]" alt="" />
+          <img src={abouting7} className="inline h-[6.1em]" alt="" />
+          <img src={abouting8} className="inline h-[2em]" alt="" />
+          <img src={abouting9} className="inline h-[5em]" alt="" />
           <img src={abouting10} className="inline h-[5em]" alt="" />
-          <img src={abouting11} className="inline h-[5em]" alt="" />
-          <img src={abouting12} className="inline h-[5em]" alt="" />
+          <img src={abouting11} className="inline h-[3em]" alt="" />
+          <img src={abouting12} className="inline h-[3em]" alt="" />
         </nav>
       </section>
       <main className="w-[100%] h-[80vh] bg-blue-200 gap-[2cm] flex items-center justify-around">
