@@ -15,7 +15,7 @@ import abouting11 from "/Images/Removeby8.png";
 
 function About() {
   return (
-    <div id="about" className="">
+    <div id="about" className="np">
       About
     </div>
   );
