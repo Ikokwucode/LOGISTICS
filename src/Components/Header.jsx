@@ -20,7 +20,7 @@ function Header() {
     setLogin(true);
   };
   return (
-    <header className=" fixed font-Nunito w-[100vw] h-[10vh] flex items-center justify-between px-5 bg-white z-30">
+    <header className=" fixed font-Nunito w-[100vw] h-[10vh] flex items-center justify-between px-5 bg-white z-50">
       {/* <div className="w-[95vw] h-[10vh] flex items-center justify-between"> */}
       <div className=" grid place-content-center h-[full] w-[7vw] ">
         <img src={Logo} className="logo h-[90px] w-[110px]" alt="logo" />
@@ -28,8 +28,8 @@ function Header() {
       {/* <div className=" Empty w-[15vw] h-[10vh] "></div> */}
       <div className="Navbtn h-[10vh] flex items-center gap-12 justify-between">
         <ScrollspyNav
-          scrollTargetIds={["about", "pricing", "services", "how", "contact"]}
-          // offset={-26}
+          scrollTargetIds={["about", "services", "pricing", "how", "contact"]}
+          offset={-26}
           activeNavClass="is-active"
           scrollDuration="1000"
         >
@@ -50,15 +50,16 @@ function Header() {
             </div>
 
             <div className=" w-fit m-[10px]  ">
-              <a href="#pricing">Pricing</a>
+              <a href="#services">Services</a>
             </div>
 
             <div className=" w-fit m-[10px]  ">
-              <a href="#services">Services</a>
-            </div>
-            <div className=" w-fit m-[10px]  ">
               <a href="#how">How it Works</a>
             </div>
+            <div className=" w-fit m-[10px]  ">
+              <a href="#pricing">Pricing</a>
+            </div>
+
             <div className=" w-fit m-[10px]  ">
               <a href="#contact">Contact us</a>
             </div>

@@ -12,23 +12,22 @@ import Tag from "./Tag";
 
 function OurServices() {
   return (
-    <main className=" w-screen h-[160vh] flex items-center justify-center  bg-[#ffefdf] font-Nunito border-[10px] border-blue-400   ">
-      <div className=" w-[85vw] h-[150vh] flex flex-col items-center justify-between">
-        {/* <div className=" w-[85vw] h-[40px]"> hello</div> */}
-
-        <section className=" bg-gradient-to-b from-[#ffebda] to-[#fce9d8] h-[80vh]  border-[1px] border-black  w-screen flex items-center justify-center flex-col ">
+    <main
+      id="services"
+      className=" w-[100%] h-[182vh] grid place-content-center  bg-[#ffefdf] font-Nunito py-10 "
+    >
+      <div className=" w-[85vw] h-[inherit] flex flex-col items-center justify-between  pt-10">
+        <div className=" w-[85vw] h-[12vh]  flex items-center justify-start">
           <Tag text="Our Services" width={"w-[9.5vw]"} style={"text-sm"} />
-          {/* <Button
-            id={"w-[85vw] h-[40px] flex items-center justify-start"}
-            text=" Our Services"
-          /> */}
+        </div>
+
+        <div className=" bg-gradient-to-b from-[#ffebda] to-[#fce9d8] h-[40vh]   w-full flex items-center justify-center flex-col ">
           <div className=" w-[85vw] h-[40px]"></div>
           <div className=" w-[85vw] h-[200px] flex items-center justify-between">
             <div className=" w-[19vw] h-[200px] flex items-center justify-center flex-col gap-1">
               <img src={pana} alt="" className=" w-[150px] h-[130px]" />
               <h1 className=" font-bold text-[#3A3A3A]"> Reliable Services</h1>
               <small className=" text-center text-[14px] text-[#8C8C8C] w-[19vw] h-[70px]">
-                {" "}
                 Your trust our priority. Thousands of satisfied customers rely
                 on us for timely and secure deliveries
               </small>
@@ -52,19 +51,15 @@ function OurServices() {
               </small>
             </div>
           </div>
-        </section>
-        {/* <div className=" w-[85vw] h-[80px]"> hello</div> */}
+        </div>
 
-        <div className=" w-[85vw] h-[510px] flex flex-col items-center justify-center">
+        <div className=" w-[85vw] h-[20vh] flex flex-col items-center justify-center  ">
           <Tag
             text={"Fleet of Services"}
             width={"w-[12vw]"}
             style={"text-sm"}
           />
-          {/* <Button
-            id={" w-[85vw] h-[40px] flex items-center justify-center"}
-            text="Fleet of Services"
-          /> */}
+
           <div className="  flex items-center justify-center w-[85vw] h-[80px]">
             <small className=" text-center text-[14px] w-[35vw] text-[#3A3A3A] flex items-center h-[80px]">
               {" "}
@@ -74,7 +69,7 @@ function OurServices() {
             </small>
           </div>
         </div>
-        <section className="flex justify-between w-full">
+        <div className="flex justify-between w-full">
           <Props
             title="Bikes"
             text="Our bikes are equipped with specially designed storage compartments to
@@ -91,10 +86,10 @@ function OurServices() {
             image={truck}
           />
           <div className=" bg-gradient-to-b from-white rounded-xl to-[#F9C799] h-[79vh] w-[26vw] flex flex-col items-center justify-center">
-            <div className="bg-[#ffedda] h-[10vh] w-[12.5vw] absolute bottom-[3%] rounded-xl right-[12%]"></div>
-            <div className="h-[37vh] w-[18vw] z-50">
+            <div className="h-[37vh] w-[18vw] z-1">
               <img src={van} className="h-[38vh]" />
             </div>
+
             <div className="h-[170px] w-[278px]">
               <p className="text-[19px] font-semibold text-[#3A3A3A] h-[6vh]">
                 Vans
@@ -108,7 +103,7 @@ function OurServices() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </main>
   );
