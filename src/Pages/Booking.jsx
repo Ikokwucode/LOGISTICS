@@ -4,9 +4,12 @@ import { FaCircle } from "react-icons/fa";
 import { FaTruckFast } from "react-icons/fa6";
 import { RiEBike2Line } from "react-icons/ri";
 import { FaShuttleVan } from "react-icons/fa";
+import { IoShieldHalf } from "react-icons/io5";
 
 function Booking() {
   const [selectedIcon, setSelectedIcon] = useState(null);
+  const [isOn, setIsOn] = useState(false);
+
   const [formData, setFormData] = useState({
     fullNamePickup: "",
     pickupAddress: "",
@@ -30,6 +33,10 @@ function Booking() {
 
   const handleIconClick = (iconId) => {
     setSelectedIcon(iconId);
+  };
+
+  const handleToggle = () => {
+    setIsOn(!isOn);
   };
 
   return (
@@ -229,12 +236,22 @@ function Booking() {
             </div>
           </div>
 
-          <div className=" w-[200px] flex justify-between">
-            <span>Insure this packacge</span>
-            <label class="inline-flex items-center cursor-pointer">
-              <input type="checkbox" value="" class="sr-only peer" checked />
-              <div class="relative w-11 h-6 bg-gray-200 rounded-full  dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-            </label>
+          <div className="flex space-x-2 items-center">
+            <IoShieldHalf className="text-blue-500" />
+            <h5>insure this package?</h5>
+
+            <div
+              onClick={handleToggle}
+              className={`w-[45px] h-[24px] flex items-center bg-gray-300 rounded-full p-1 cursor-pointer ${
+                isOn ? "bg-blue-500" : "bg-gray-300"
+              }`}
+            >
+              <div
+                className={`bg-white w-[18px] h-[20px] rounded-full  shadow-md transform duration-300 ease-in-out ${
+                  isOn ? "translate-x-5" : ""
+                }`}
+              ></div>
+            </div>
           </div>
 
           <div className="flex justify-between mt-8">
