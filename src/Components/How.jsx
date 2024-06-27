@@ -34,7 +34,7 @@ const DataList = () => {
       <div className="h-[5vh] w-full px-4 flex justify-start items-center mt-4">
         <Tag text={"How it works"} />
       </div>
-      <div className="data-list text-sm flex items-center justify-center gap-x-20 flex-wrap h-[80%] w-[75%] m-auto border-[1px] border-black  ">
+      <div className="data-list text-sm flex items-center justify-center gap-x-20 flex-wrap h-[80%] w-[75%] m-auto ">
         {dataList.map((item) => (
           <div
             key={item.key}
