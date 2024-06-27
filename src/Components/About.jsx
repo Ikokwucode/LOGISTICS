@@ -1,4 +1,3 @@
-import React from "react";
 import aboutimg from "/Images/about1.png";
 import aboutimg2 from "/Images/about2.png";
 import aboutimg3 from "/Images/about3.png";
@@ -15,7 +14,7 @@ import abouting11 from "/Images/Removeby8.png";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <section className="w-auto  shadow-lg bg-white flex items-center justify-around">
         {/* <div className="flex items-center justify-between w-[100%] h-[12vh) "></div> */}
         <nav className="flex items-center justify-between w-[100%] h-[12vh] px-10">
