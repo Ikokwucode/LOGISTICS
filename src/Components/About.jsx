@@ -14,6 +14,7 @@ import abouting12 from "/Images/express-logo-designs-transport-logistic-delivery
 import abouting11 from "/Images/Removeby8.png";
 
 function About() {
+  
   return (
     <div>
       <section className="w-auto shadow-lg bg-white flex items-center justify-around">
