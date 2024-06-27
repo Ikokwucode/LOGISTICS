@@ -8,6 +8,7 @@ export default {
         secondary: "#8C8C8C",
         lGreen: "#ECF1F1",
         lOrange: "#FFF2E6",
+      
       },
       fontFamily: {
         Nunito: ["Nunito Sans"],

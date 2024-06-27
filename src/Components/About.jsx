@@ -14,8 +14,13 @@ import abouting11 from "/Images/Removeby8.png";
 
 function About() {
   return (
+<<<<<<< HEAD
     <div id="about">
       <section className="w-auto  shadow-lg bg-white flex items-center justify-around">
+=======
+    <div>
+      <section className="w-auto shadow-lg bg-white flex items-center justify-around">
+>>>>>>> 3b3c46149db4c88c0afbe9216dff23b915f8976f
         {/* <div className="flex items-center justify-between w-[100%] h-[12vh) "></div> */}
         <nav className="flex items-center justify-between w-[100%] h-[12vh] px-10">
           <img src={abouting4} className="inline h-[4em]" alt="" />
@@ -29,7 +34,7 @@ function About() {
           <img src={abouting12} className="inline h-[3em]" alt="" />
         </nav>
       </section>
-      <main className="w-[100%] h-[80vh] bg-blue-200 gap-[2cm] flex items-center justify-around">
+      <main className="w-[100%] h-[90vh] bg-blue-200 gap-[2cm] flex items-center justify-around">
         <div className="flex flex-col gap-6 w-[40%]">
           <b className="font-sans font-semibold text-3xl">About Us</b>
           <small className="font-sans font-medium text-base">
