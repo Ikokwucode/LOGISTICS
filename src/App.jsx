@@ -22,7 +22,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-      <Booking />
+      {/* <Booking /> */}
     </>
   );
 }
