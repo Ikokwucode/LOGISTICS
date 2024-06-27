@@ -30,15 +30,18 @@ const dataList = [
 
 const DataList = () => {
   return (
-    <main className="bg-gradient-to-b from-[#FFFFFF] to-[#F9C799]  h-[95vh] w-[100%] flex flex-col items-center justify-center font-Nunito">
-      <div className="h-[5vh] w-full px-4 flex justify-start items-center mt-4">
+    <main
+      id="how"
+      className="bg-gradient-to-b from-[#FFFFFF] to-[#F9C799]  h-[98vh] w-[100%] flex flex-col items-center font-Nunito"
+    >
+      <div className="h-[20%] w-full px-4 flex justify-start items-center mt-4 pl-10">
         <Tag text={"How it works"} />
       </div>
-      <div className="data-list text-sm flex items-center justify-center gap-x-20 flex-wrap h-[80%] w-[75%] m-auto ">
+      <div className="data-list text-sm flex items-center justify-center gap-x-[90px] flex-wrap h-[80%] w-[75%] m-auto ">
         {dataList.map((item) => (
           <div
             key={item.key}
-            className="data-item m-[10px] p-[15px] bg-gray-50 rounded-lg flex flex-col w-[23vw] h-[35vh] gap-y-2"
+            className="data-item m-[10px] p-[15px] bg-gray-50 rounded-xl flex flex-col w-[22vw] h-[33vh] gap-y-3"
           >
             <h3 className="font-bold text-center">{item.title}</h3>
             <p className="text-center leading-loose ">{item.paragraph}</p>

@@ -14,7 +14,7 @@ function OurServices() {
   return (
     <main
       id="services"
-      className=" w-[100%] h-[180vh] grid place-content-center  bg-[#ffefdf] font-Nunito   "
+      className=" w-[100%] h-[182vh] grid place-content-center  bg-[#ffefdf] font-Nunito py-10 "
     >
       <div className=" w-[85vw] h-[inherit] flex flex-col items-center justify-between  pt-10">
         <div className=" w-[85vw] h-[12vh]  flex items-center justify-start">
@@ -86,7 +86,7 @@ function OurServices() {
             image={truck}
           />
           <div className=" bg-gradient-to-b from-white rounded-xl to-[#F9C799] h-[79vh] w-[26vw] flex flex-col items-center justify-center">
-            <div className="h-[37vh] w-[18vw] z-50">
+            <div className="h-[37vh] w-[18vw] z-1">
               <img src={van} className="h-[38vh]" />
             </div>
 

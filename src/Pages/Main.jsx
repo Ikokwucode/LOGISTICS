@@ -14,8 +14,8 @@ function Main() {
       <Home />
       <About />
       <Services />
-      <Pricing />
       <How />
+      <Pricing />
       <Contact />
     </main>
   );
